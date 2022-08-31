@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@300;500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-fecha{
+    width: 500px;
+    height: 100px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contenido-fecha{
+    display: flex;
+}
+p{
+    font-size: 25px;
+    margin: 7px;
+    text-align: center;
+}
+
+.contenedor-reloj {
+    width: 600px;
+    height: 200px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contenido-reloj{
+    display: flex;
+}
+.hora{
+    font-size: 50px;
+}
+.minuto{
+    font-size: 50px;
+}
+.ampm{
+    margin-top: 20px;
+    font-size: 34px;
+}
+.puntos{
+    font-size: 50px;
+}
+
+.segundos{
+    font-size: 26px;
+    margin-top: 30px;
+}
