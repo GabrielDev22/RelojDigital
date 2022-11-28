@@ -7,6 +7,7 @@ box-sizing: border-box;
 font-size: 16px;
 }
 
+
 /* Seccion reloj Digital */
 
 .nav-bar{
@@ -128,7 +129,6 @@ p{
         display: flex;
         flex-wrap: wrap;
         margin: 40px;
-        text-align: center;
     }
 
     .contenedor-reloj {
@@ -207,7 +207,7 @@ p{
     border-radius: 10%;
     margin-left: 60px;
     display: none;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 .pausar:hover{
     background-color: #394254
@@ -290,4 +290,53 @@ p{
     background-color: #394254;
 }
 
+/* Temporizador adaptado a telefono */
 
+@media screen and (max-width: 700px){
+
+    .titulo_cuentaRegresiva{
+        font-size: 40px;
+    }
+
+    .contenedor_cuentaRegresiva{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 400px;
+        height: 300px;
+    }
+    
+    .contenido_cuentaRegresiva{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .dias_cuentaRegresiva{
+        width: 250px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .horas_cuentaRegresiva{
+        width: 250px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .minutos_cuentaRegresiva{
+        width: 250px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .segundos_cuentaRegresiva{
+        width: 250px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+}
