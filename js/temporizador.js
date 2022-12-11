@@ -54,4 +54,4 @@ const countdown = (deadline, elem, finalMessage) => {
     },1000)
 };
 
-countdown('Nov 31 2022 19:37:00 GMT-0300', 'clock', 'Ha finalizado Noviembre');
+countdown('Dec 31 2022 19:37:00 GMT-0300', 'clock', 'Ha finalizado Noviembre');

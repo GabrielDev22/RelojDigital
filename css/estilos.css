@@ -182,7 +182,6 @@ p{
     height: 70px;
     border: 2px solid black;
     border-radius: 50%;
-    transition: 0.5s ease;
 }
 
 .reset:hover{
@@ -194,7 +193,6 @@ p{
     height: 70px;
     border: 2px solid black;
     border-radius: 50%;
-    transition: 1s ease;
 }
 .iniciar:hover{
     background-color: #394254;
@@ -207,7 +205,6 @@ p{
     border-radius: 10%;
     margin-left: 60px;
     display: none;
-    transition: 0.5s ease;
 }
 .pausar:hover{
     background-color: #394254

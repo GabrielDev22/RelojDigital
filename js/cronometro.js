@@ -15,7 +15,10 @@ setInterval(() => {
     tiempoRef = Date.now()
     tiempo.innerHTML = formatearMS(contador)
 
+    localStorage.setItem('cronometro', JSON.stringify(formatearMS(contador)))
+
 },1000 / 60);
+
 
 function inicio(){
     iniciar.addEventListener('click', () => {
